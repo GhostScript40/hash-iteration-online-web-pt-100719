@@ -3,7 +3,7 @@
 #   "Sarah" => 6, 
 #   "Amanda" => 27
 # }
-require 'pry'
+
 def happy_birthday(birthday_kids)
  birthday_kids.each do |kids_name, age|
     puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
@@ -15,7 +15,6 @@ def age_appropriate_birthday(birthday_kids)
     puts  "Happy Birthday #{kids_name}! You are now #{age} years old!"
   else
     puts "You are too old for this."
-    binding.pry
     end
   end
 end
